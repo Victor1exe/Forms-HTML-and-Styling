@@ -1,0 +1,242 @@
+/*  Form 8
+button,input,select,textarea{
+    font-family: inherit;
+    font-size: 100%;
+}
+
+input[type="date"]{
+    font-size: 2em;
+    color:green;
+}
+
+input[type="file"]{
+    font-size: 3em;
+    color: red;
+}
+
+label{
+    font-weight: bold;
+    color: blue;
+}
+
+input[type="date"] +label{
+    font-size: 1em;
+    color: chartreuse;
+} */
+
+
+/* form 9
+button, input, select, textarea {
+	font-family: inherit;
+	font-size: 100%
+}
+input, textarea, select {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+input[type="text"], input[type="url"], input[type="email"], input[type="tel"], input[type="password"], input[type="search"], input[type="number"], input[type="date"], input[type="time"], textarea {
+        width : 12em;
+        padding : 5px;
+        margin : 10px 10px 10px 0px;
+        border-radius : 7px;
+        background-color: aquamarine;
+}
+
+input[type="url"]{
+    width : 20em;
+} */
+
+/* form 10
+button, input, select, textarea {
+	font-family: inherit;
+	font-size: 100%
+}
+input, textarea, select {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+input[type="checkbox"]{
+    opacity:0%;
+}
+
+input[type="checkbox"] +  label{
+    background:url(checkedimage); 
+} */
+
+/* form 11
+button, input, select, textarea {
+	font-family: inherit;
+	font-size: 100%
+}
+input, textarea, select {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+input[type="checkbox"]{
+    opacity: 0;
+    width: 0;
+    margin:0;
+}
+
+input[type="checkbox"] + label{
+    border: 2px solid blue;
+    background-color: aqua;
+    padding: 4px 10px;
+    border-radius: 7px;
+    display:inline-block;
+    width: 4em;
+    text-align:center;
+
+} */ 
+
+/* Form 12
+select{
+    display: block;
+    margin-bottom: 20px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: white;
+}
+
+select:not([multiple]){
+    background-size: 1em 1em;
+    padding-right:1em;
+    background-color: aquamarine;
+}
+
+select{
+    padding : 8px 1em 8px 8px;
+    background-color: rgb(243, 255, 80);
+    border: 2px solid black;
+}
+
+option{
+    padding: 5px;
+}
+
+optgroup{
+    border: 1px dashed black;
+    padding: 5px;
+} */
+
+
+/*  Form 13
+button,input,select,textarea{
+    font-family: inherit;
+    font-size: 100%;
+}
+
+input,textarea,select{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#styled input,#styled button{
+    
+}
+
+style,input{
+    
+}
+
+#styled input[type="submit"]:focus, #styled button[type="submit"]:focus{
+    border: 2px solid red;
+}
+
+#styled input[type="submit"]:hover, #styled button[type="submit"]:hover{
+    border: 4px solid blue;
+    background-color: burlywood;
+}
+#styled input[type="submit"]:active, #styled button[type="submit"]:active{
+    background-color: orange;
+} */
+
+/* Form 14
+button,input,select,textarea{
+    font-family: inherit;
+    font-size: 100%;
+}
+
+input,textarea,select{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+input:required{
+    border: 2px solid red; 
+}
+
+input[type="number"]:valid{
+    border: 4px solid green;
+}
+
+input[type="number"]:invalid{
+    border: 4px solid red;
+}
+ */
+
+Form 15
+ button,input,select,textarea{
+    font-family: inherit;
+    font-size: 100%;
+}
+
+input,textarea,select{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+label{display: block;}
+
+input[type="checkbox"] + label {
+    display: inline;
+}
+
+fieldset{
+    border-width: 0;
+    padding: 0;
+}
+
+input[type="text"],input[type="tel"],input[type="email"]{
+    width: 90%;
+    margin : .2em auto .8em auto;
+}
+
+#zip{
+    max-width: 10em;
+}
+
+select,fieldset{
+    margin : .2em auto .8em auto;
+}
+
+legend{
+    margin-left: -.1em;
+    font-weight: bold;
+}
+
+@media (min-width : 35em){
+    label{
+        display: inline;
+    }
+    input[type="text"],input[type="tel"],input[type="email"]{
+        width:60%;
+    }
+    label{
+        width:10em;
+        display: inline-block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
